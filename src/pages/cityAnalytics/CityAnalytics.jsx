@@ -213,7 +213,6 @@ const CityAnalytics = () => {
   };
 
   useEffect(() => {
-
     if ((firstCityTemps !== undefined) & (secondCityTemps !== undefined)) {
       getTempAmplitude1(firstCityTemps);
       getTempAmplitude2(secondCityTemps);
@@ -236,7 +235,9 @@ const CityAnalytics = () => {
     <StyledCityAnalytics>
       <div className="flexColCenter innerWidth">
         <div className="flexCenter nav-container">
-          <img src="./img/utech-logo.png" alt="" />
+          <a href="https://utech.com.br/site/" target="_blank">
+            <img src="./img/utech-logo.png" alt="" />
+          </a>
           <SecondaryNavBar />
         </div>
         <div className="flexColCenter cityAnalytics-container">

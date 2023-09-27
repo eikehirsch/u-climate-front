@@ -12,11 +12,15 @@ const HomeFooter = () => {
         <div className="flexColCenter section-container">
           <h2 className="title">Baixe agora o uClimate App</h2>
           <div className="flexCenter images-container">
-            <img className="image" src="./img/playstore.png" alt="" />
-            <img className="image" src="./img/appstore.png" alt="" />
+            <a target="_blank" className="flexCenter" href="https://play.google.com/store/games?hl=pt_BR&gl=US&pli=1">
+              <img className="image" src="./img/playstore.png" alt="" />
+            </a>
+            <a target="_blank" className="flexCenter" href="https://www.apple.com/br/app-store/">
+              <img className="image" src="./img/appstore.png" alt="" />
+            </a>
           </div>
           <div className="flexCenter footer-info-container">
-            <div className="flexCenter footer-container">
+            <div className="flexEnd footer-container">
               <div className="flexColCenter">
                 <h4 className="footer-container-subtitle">Nossos parceiros</h4>
                 <img
@@ -37,10 +41,27 @@ const HomeFooter = () => {
               </div>
               <div className="flexColCenter social-media-container">
                 <div className="flexCenter social-media-subcontainer">
-                  <AiFillFacebook />
-                  <AiFillLinkedin />
-                  <AiFillYoutube />
-                  <AiOutlineInstagram />
+                  <a
+                    href="https://www.facebook.com/uTechTecnologia"
+                    target="_blank"
+                  >
+                    <AiFillFacebook />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/utechtecnologia"
+                    target="_blank"
+                  >
+                    <AiFillLinkedin />
+                  </a>
+                  <a href="https://www.youtube.com/utechnet" target="_blank">
+                    <AiFillYoutube />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/utechoficial/"
+                    target="_blank"
+                  >
+                    <AiOutlineInstagram />
+                  </a>
                 </div>
                 <h4 className="footer-container-subtitle">
                   Acompanhe-nos em nossas redes

@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 const StyleHomeFooter = styled.div`
-  background: rgba(147, 211, 231, 1);
+  background: #caf0f8;
   width: 100%;
   padding: 4rem 0;
   margin-top: 2rem;
+  color: #545454; 
 
   .title {
     margin-bottom: 1rem;
   }
 
-  .images-container {
-     gap: 2rem;
+  .images-container > a > img {
+   width: 60%;
   }
 
   .image {
@@ -28,6 +29,7 @@ const StyleHomeFooter = styled.div`
   .footer-container-subtitle {
      width: 75%;
      text-align: center;
+     font-size: 1rem;
   }
 
   .image-partners {
@@ -41,6 +43,26 @@ const StyleHomeFooter = styled.div`
   .social-media-subcontainer {
      font-size: 2rem;
      gap: 1rem;
+  }
+
+  .social-media-subcontainer > a {
+   color: #000;
+   display: flex;
+   align-items: flex-end;
+  }
+
+  @media (max-width: 725px) {
+
+   padding: 2rem 0;
+
+   .footer-container {
+      flex-direction: column;
+      gap: 2rem;
+   }
+
+   .footer-container-subtitle {
+      width: 100%;
+   }
   }
 `;
 

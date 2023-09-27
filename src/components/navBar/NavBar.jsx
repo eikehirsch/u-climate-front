@@ -15,24 +15,26 @@ const NavBar = () => {
     <StyledNavBar>
       <nav id="intro-nav-container" className="flexStart intro-nav-container">
         <div id="intro-nav" className="flexStart intro-nav-box">
-          <img src="./img/utech-logo.png" alt="" />
+          <a href="https://utech.com.br/site/" target="_blank">
+            <img src="./img/utech-logo.png" alt="" />
+          </a>
           {/* <OutsideClickHandler onOutsideClick={() => setMenuOpened(false)}> */}
-            <div
-              className="flexCenter intro-nav"
-              style={getMenuStyles(menuOpened)}
-            >
-              <li className="intro-nav-item">Home</li>
-              <li className="intro-nav-item">Sobre</li>
-              <li className="intro-nav-item">Funcionalidades</li>
-              <li className="intro-nav-item">Feedback</li>
-              <li className="intro-nav-item">Contato</li>
-            </div>
-            <div
-              className="menu-icon"
-              onClick={() => setMenuOpened((prev) => !prev)}
-            >
-              <BiMenuAltRight size={50} />
-            </div>
+          <div
+            className="flexCenter intro-nav"
+            style={getMenuStyles(menuOpened)}
+          >
+            <li className="intro-nav-item">Home</li>
+            <li className="intro-nav-item">Sobre</li>
+            <li className="intro-nav-item">Funcionalidades</li>
+            <li className="intro-nav-item">Feedback</li>
+            <li className="intro-nav-item">Contato</li>
+          </div>
+          <div
+            className="menu-icon"
+            onClick={() => setMenuOpened((prev) => !prev)}
+          >
+            <BiMenuAltRight size={50} />
+          </div>
           {/* </OutsideClickHandler> */}
         </div>
       </nav>
