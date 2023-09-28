@@ -3,7 +3,7 @@
 * [Status do Projeto](#Status-do-Projeto)
 
 <p align="center">
-<img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-green">
+<img src="https://img.shields.io/badge/Status-Concluído-green">
 </p>
 <br>
 
