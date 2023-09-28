@@ -7,6 +7,10 @@
 </p>
 <br>
 
+* [Como executar em Linux](#Como-executar-em-Linux)
+
+`Teste.`
+
 * [Principais ferramentas utilizadas](#Ferramentas-utilizadas)
 
  `React.js: para componentização e organização das telas.`
