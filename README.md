@@ -7,13 +7,21 @@
 </p>
 <br>
 
-* [Ferramentas utilizadas](#Ferramentas-utilizadas)
+* [Principais ferramentas utilizadas](#Ferramentas-utilizadas)
 
  `React.js: para componentização e organização das telas.`
 
  `Styled-Component: biblioteca do React para estilizar os componentes em escopo fechado com o intuito de não vazar as classes e estilos para outros componentes.`
  
- `JavaScript ES6 (puro)`
+ `Reat-router-dom: biblioteca do React para administrar a navegação entre páginas da na aplicação.`
+
+ `React-hook-form: biblioteca para efetuar e controlar formulários de React.`
+
+ `React-apexcharts: biblioteca para criar, renderizar e controlar gráficos e tabelas.`
+
+ `React-swiper: biblioteca para criar e renderizar componentes do tipo carrossel.`
+
+ `React-modal: biblioteca para criar e configurar telas do tipo modal, como o alerta de utilização de cookies..`
 
  `API ViaCEP`: <a href="https://viacep.com.br/"> Acesso</a>
  
