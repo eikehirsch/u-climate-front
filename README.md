@@ -9,9 +9,9 @@
 
 * [Como executar em Linux](#Como-executar-em-Linux)
 
-`Essa aplicação, tanto o back-end quanto o front-end, foi testada em Linux utilizando o programa Oracle VM Virtual Box para criar uma máquina virtual Linux. Nessa máquina virtual criada, foi instalado o Ubuntu e, com ele, a aplicação foi executada utilizando o VSCode do Ubuntu.
+Essa aplicação, tanto o back-end quanto o front-end, foi testada em Linux utilizando o programa Oracle VM Virtual Box para criar uma máquina virtual Linux. Nessa máquina virtual criada, foi instalado o Ubuntu e, com ele, a aplicação foi executada utilizando o VSCode do Ubuntu.
 
-Para executar propriamente a aplicação, é necessário iniciar o back-end com o comando "npm start" e, em seguida, iniciar o front-end também com o comando "npm start". Essa executação funciona igualmente no Windows com os mesmos comandos.`
+Para executar propriamente a aplicação, é necessário iniciar o back-end com o comando "npm start" e, em seguida, iniciar o front-end também com o comando "npm start". Essa executação funciona igualmente no Windows com os mesmos comandos.
 
 * [Principais ferramentas utilizadas](#Ferramentas-utilizadas)
 
