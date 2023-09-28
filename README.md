@@ -21,31 +21,29 @@
 
  `React-swiper: biblioteca para criar e renderizar componentes do tipo carrossel.`
 
- `React-modal: biblioteca para criar e configurar telas do tipo modal, como o alerta de utilização de cookies..`
+ `React-modal: biblioteca para criar e configurar telas do tipo modal, como o alerta de utilização de cookies.`
 
- `API ViaCEP`: <a href="https://viacep.com.br/"> Acesso</a>
+ `React-spinners: biblioteca para criar e configurar íncones de loading para sinalizar carregamentos.`
  
 * [Introdução](#Introducao)
 
-O presente projeto foi realizado tendo como objetivo o desenvolvimento de uma aplicação que permita ao usuário consultar um número de CEP e lhe retorne as principais informações do CEP inserido.
+O presente projeto foi realizado tendo como objetivo o desenvolvimento de uma aplicação que permita ao usuário consultar previsões climáticas especificamente da cidade de Florianópolis e também de qualquer cidade brasileira, em diferentes páginas, retornando ao usuário informações interessantes como temperatura média dos próximos dias, velocidade média do vento, umidade relativa do ar etc.
 
 * [Descrição do projeto](#Descriçao-do-projeto)
 
-<p>A aplicação foi projetada visando simular um site institucional da empresa Correios a fim de contextualizar a funcionalidade de consultar o CEP para agregar valor à experiência do usuário. 
+<p>A aplicação foi projetada visando simular um site institucional que promova o aplicativo uClimate, como se tivesse sido desenvolvido pela empresa uTech de soluções tecnológicas situada em Florianópolis, a fim de contextualizar as funcionalidades para agregar valor à experiência do usuário. 
 
 Das páginas:
 
->A página 'Homepage' foi idealizada para ser propositalmente isenta de informações e interações dinâmicas com o usuário, com exceção do título da empresa que serve como link para a seção própria de consultar CEP.
+>A página 'Home' foi desenvolvida como sendo uma landing page contendo informações relevantes a respeito do aplicativo uTech.
 
->A página 'Consulta CEP', foco central deste projeto, emprega a API ViaCEP para retornar ao usuário a localidade, bairro, rua, complemento e UF. No JavaScript, foi implementada a máscara para o input, bem como a validação do número inserido para informar ao usuáio se o mesmo digitou uma entrada diferente de 8 números. Foi possivel fazer isso pelo fato da API ViaCEP retornar um .json entitulado 'erro' e o mesmo foi utilizado para tratamento de erros. Em alguns casos, a API não conseguirá retornar valor para a propriedade 'Complemento' e, quando isso acontecer, o site informará "Complemento não informado".
+>A página 'Florianópolis', com endereço /previsao-florianopoli, traz do back-end a previsão climática e algumas estatísticas da cidade de Florianópolis.
 
->A página 'Comemoração' foi idealizada como agradecimento e congratulações do aniversário de 25 anos da empresa, com um vídeo para o usuário e uma carta aos colaboradores.
+>A página 'Dashboard', com endereço /dashboard, foi desenvolvida como se fosse um dashboard climático que fornece ao usuário a previsão do tempo com informações relevantes do clima dos próximos 4 dias da cidade escolhida no formulário.
 
->A página 'Sobre' foi idealizada para valorizar as conquistas alcançadas pela empresa ao longo dos 25 anos de prestatividade, bem como reforçar o valor de seu serviço aos clientes.
-
-A organização do código buscou empregar boas práticas, como a identificação de classes e suas respectivas classes filhas ser feita com o uso de __ no CSS. Quanto aos atributos das classes, os mesmos foram ordenados em ordem alfabética para facilitar a manutenção futura. No JavaScript, foram empregados separadores de regiões do código utilizando //#region para delimitar os códigos correlacionados.
+>A página 'CityAnalytics', com endereço /city-analytics, foi desenvolvida como se fosse um comparador de climas entre duas cidades diferentes, retornando ao usuário a previsão do tempo de ambas, dos próximos quatro dias, com suas respectivas amplitudes térmicas.
 
 </p>
 
 * [Desenvolvedor](#Desenvolvedor)
-<h4>Eike Hirsch ✒️ LinkedIn: https://www.linkedin.com/in/eike-hirsch-b311541a5/</h4>
+<h4>Eike Hirsch ✒️ LinkedIn: https://www.linkedin.com/in/eike-hirsch/</h4>
