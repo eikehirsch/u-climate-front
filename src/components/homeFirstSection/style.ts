@@ -131,7 +131,7 @@ const StyleHomeFirstSection = styled.div`
     }
 
     .button {
-      width: 60%;
+      width: 75%;
       padding: 0.2rem;
     }
 

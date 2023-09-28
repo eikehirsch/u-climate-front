@@ -117,7 +117,7 @@ const StyledCityAnalytics = styled.div`
     color: #1d3557;
   }
 
-  @media (max-width: 1200px) and (min-width: 570px) {
+  @media (max-width: 1200px) {
     padding: 0 1rem;
 
     .nav-container {
@@ -125,6 +125,18 @@ const StyledCityAnalytics = styled.div`
       gap: 0;
       padding: 0 1rem;
     }
+
+  }
+
+  @media (max-width: 900px) {
+    .amplitude-subcontainer {
+    background-color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    width: 50%;
+    text-align: center;
+    gap: 0rem;
+  }
   }
 `;
 

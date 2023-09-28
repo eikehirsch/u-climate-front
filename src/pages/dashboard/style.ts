@@ -35,7 +35,7 @@ const StyledDashboard = styled.div`
     gap: 1rem;
   }
 
-  @media (max-width: 1200px) and (min-width: 570px) {
+  @media (max-width: 1200px) {
     padding: 0 1rem;
 
     .dashboard-container {
@@ -55,6 +55,12 @@ const StyledDashboard = styled.div`
     .panel-graphic-container {
       margin-bottom: 1rem;
       gap: 0.5rem;
+    }
+  }
+
+  @media (max-width: 569px) {
+    .dashboard-container {
+      flex-direction: column;
     }
   }
 `;

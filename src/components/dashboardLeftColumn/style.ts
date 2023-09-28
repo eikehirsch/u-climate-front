@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const StyledDashboardLeftColumn = styled.div`
-
   width: 18%;
 
   .left-column {
@@ -71,23 +70,22 @@ const StyledDashboardLeftColumn = styled.div`
   }
 
   .error {
-    font-size: .8rem;
+    font-size: 0.8rem;
     color: #e63946;
-    padding: .1rem .4rem;
+    padding: 0.1rem 0.4rem;
     border-radius: 4px;
-    margin-top: .4rem;
+    margin-top: 0.4rem;
     background-color: #fff;
   }
 
   @media (max-width: 1200px) and (min-width: 570px) {
-
     width: 100%;
 
     .left-column {
       flex-direction: column;
       min-height: auto;
       height: auto;
-      gap: .5rem;
+      gap: 0.5rem;
       border-radius: 4px;
     }
 
@@ -95,13 +93,17 @@ const StyledDashboardLeftColumn = styled.div`
       margin-bottom: 1rem;
     }
 
-    .button{
+    .button {
       margin-top: 1rem;
     }
 
     .button:hover {
       margin-top: 1rem;
     }
+  }
+
+  @media (max-width: 569px) {
+    width: 75%;
   }
 `;
 
