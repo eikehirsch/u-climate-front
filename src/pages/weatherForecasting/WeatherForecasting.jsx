@@ -68,7 +68,7 @@ const WeatherForecasting = () => {
 
   return (
     <StyledWeatherForecasting>
-      <div className="flexColCenter innerWidth">
+      <div className="flexColCenter  innerWidth">
         <div className="flexCenter nav-container">
           <a href="https://utech.com.br/site/" target="_blank">
             <img src="./img/utech-logo.png" alt="" />
