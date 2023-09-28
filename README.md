@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+* [Título](#Título) <h1 align="center">Aplicação - uClimate (Front-End)</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* [Status do Projeto](#Status-do-Projeto)
 
-## Available Scripts
+<p align="center">
+<img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-green">
+</p>
+<br>
 
-In the project directory, you can run:
+* [Ferramentas utilizadas](#Ferramentas-utilizadas)
 
-### `npm start`
+ `React.js: para componentização e organização das telas.`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ `Styled-Component: biblioteca do React para estilizar os componentes em escopo fechado com o intuito de não vazar as classes e estilos para outros componentes.`
+ 
+ `JavaScript ES6 (puro)`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ `API ViaCEP`: <a href="https://viacep.com.br/"> Acesso</a>
+ 
+* [Introdução](#Introducao)
 
-### `npm test`
+O presente projeto foi realizado tendo como objetivo o desenvolvimento de uma aplicação que permita ao usuário consultar um número de CEP e lhe retorne as principais informações do CEP inserido.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Descrição do projeto](#Descriçao-do-projeto)
 
-### `npm run build`
+<p>A aplicação foi projetada visando simular um site institucional da empresa Correios a fim de contextualizar a funcionalidade de consultar o CEP para agregar valor à experiência do usuário. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Das páginas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+>A página 'Homepage' foi idealizada para ser propositalmente isenta de informações e interações dinâmicas com o usuário, com exceção do título da empresa que serve como link para a seção própria de consultar CEP.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+>A página 'Consulta CEP', foco central deste projeto, emprega a API ViaCEP para retornar ao usuário a localidade, bairro, rua, complemento e UF. No JavaScript, foi implementada a máscara para o input, bem como a validação do número inserido para informar ao usuáio se o mesmo digitou uma entrada diferente de 8 números. Foi possivel fazer isso pelo fato da API ViaCEP retornar um .json entitulado 'erro' e o mesmo foi utilizado para tratamento de erros. Em alguns casos, a API não conseguirá retornar valor para a propriedade 'Complemento' e, quando isso acontecer, o site informará "Complemento não informado".
 
-### `npm run eject`
+>A página 'Comemoração' foi idealizada como agradecimento e congratulações do aniversário de 25 anos da empresa, com um vídeo para o usuário e uma carta aos colaboradores.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+>A página 'Sobre' foi idealizada para valorizar as conquistas alcançadas pela empresa ao longo dos 25 anos de prestatividade, bem como reforçar o valor de seu serviço aos clientes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A organização do código buscou empregar boas práticas, como a identificação de classes e suas respectivas classes filhas ser feita com o uso de __ no CSS. Quanto aos atributos das classes, os mesmos foram ordenados em ordem alfabética para facilitar a manutenção futura. No JavaScript, foram empregados separadores de regiões do código utilizando //#region para delimitar os códigos correlacionados.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [Desenvolvedor](#Desenvolvedor)
+<h4>Eike Hirsch ✒️ LinkedIn: https://www.linkedin.com/in/eike-hirsch-b311541a5/</h4>
