@@ -79,7 +79,7 @@ const WeatherForecasting = () => {
           <h1 className="title">
             {weatherResults.length > 0
               ? "Seguem abaixo as informações de Florianópolis"
-              : "Cheque as próximos 4 previsões de Florianópolis"}
+              : "Cheque as próximas 4 previsões de Florianópolis"}
           </h1>
           <form onSubmit={handleSubmit} className="flexCenter input-container">
             {weatherResults.length === 0 && (
@@ -105,15 +105,15 @@ const WeatherForecasting = () => {
           {weatherResults !== undefined && weatherResults.length > 0 && (
             <>
               <span className="forecasting-averageTemp">
-                A temperatura média dos 4 dias será {averageTemperature}
+                A temperatura média será {averageTemperature}
                 ºC.
               </span>
               <span className="forecasting-min-temp">
-                ❄A temperatura mais baixa nos 4 dias será {minTemperature}
+                ❄A temperatura mais baixa será {minTemperature}
                 ºC.
               </span>
               <span className="forecasting-max-temp">
-                🔥A temperatura mais alta nos 4 dias será {maxTemperature}
+                🔥A temperatura mais alta será {maxTemperature}
                 ºC.
               </span>
             </>
