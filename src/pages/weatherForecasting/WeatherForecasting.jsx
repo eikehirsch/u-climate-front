@@ -109,11 +109,11 @@ const WeatherForecasting = () => {
                 ºC.
               </span>
               <span className="forecasting-min-temp">
-                ❄A temperatura mais baixa será {minTemperature}
+                ❄ A temperatura mais baixa será {minTemperature}
                 ºC.
               </span>
               <span className="forecasting-max-temp">
-                🔥A temperatura mais alta será {maxTemperature}
+                🔥 A temperatura mais alta será {maxTemperature}
                 ºC.
               </span>
             </>
