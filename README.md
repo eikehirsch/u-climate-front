@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+* [Título](#Título) <h1 align="center">Aplicação - uClimate (Front-End)</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* [Status do Projeto](#Status-do-Projeto)
 
-## Available Scripts
+<p align="center">
+<img src="https://img.shields.io/badge/Status-Concluído-green">
+</p>
+<br>
 
-In the project directory, you can run:
+* [Como executar em Linux](#Como-executar-em-Linux)
 
-### `npm start`
+Essa aplicação, tanto o back-end quanto o front-end, foi testada em Linux utilizando o programa Oracle VM Virtual Box para criar uma máquina virtual Linux. Nessa máquina virtual criada, foi instalado o Ubuntu e, com ele, a aplicação foi executada utilizando o VSCode do Ubuntu.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para executar propriamente a aplicação, é necessário iniciar o back-end com o comando "npm start" e, em seguida, iniciar o front-end também com o comando "npm start". Essa executação funciona igualmente no Windows com os mesmos comandos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Principais ferramentas utilizadas](#Ferramentas-utilizadas)
 
-### `npm test`
+ `React.js: para componentização e organização das telas.`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ `Styled-Component: biblioteca do React para estilizar os componentes em escopo fechado com o intuito de não vazar as classes e estilos para outros componentes.`
+ 
+ `Reat-router-dom: biblioteca do React para administrar a navegação entre páginas da na aplicação.`
 
-### `npm run build`
+ `React-hook-form: biblioteca para efetuar e controlar formulários de React.`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ `React-apexcharts: biblioteca para criar, renderizar e controlar gráficos e tabelas.`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ `React-swiper: biblioteca para criar e renderizar componentes do tipo carrossel.`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ `React-modal: biblioteca para criar e configurar telas do tipo modal, como o alerta de utilização de cookies.`
 
-### `npm run eject`
+ `React-spinners: biblioteca para criar e configurar íncones de loading para sinalizar carregamentos.`
+ 
+* [Introdução](#Introducao)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+O presente projeto foi realizado tendo como objetivo o desenvolvimento de uma aplicação que permita ao usuário consultar previsões climáticas especificamente da cidade de Florianópolis e também de qualquer cidade brasileira, em diferentes páginas, retornando ao usuário informações interessantes como temperatura média dos próximos dias, velocidade média do vento, umidade relativa do ar etc.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [Descrição do projeto](#Descriçao-do-projeto)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p>A aplicação foi projetada visando simular um site institucional que promova o aplicativo uClimate, como se tivesse sido desenvolvido pela empresa uTech de soluções tecnológicas situada em Florianópolis, a fim de contextualizar as funcionalidades para agregar valor à experiência do usuário. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Das páginas:
 
-## Learn More
+>A página 'Home' foi desenvolvida como sendo uma landing page contendo informações relevantes a respeito do aplicativo uTech.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+>A página 'Florianópolis', com endereço /previsao-florianopoli, traz do back-end a previsão climática e algumas estatísticas da cidade de Florianópolis.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+>A página 'Dashboard', com endereço /dashboard, foi desenvolvida como se fosse um dashboard climático que fornece ao usuário a previsão do tempo com informações relevantes do clima dos próximos 4 dias da cidade escolhida no formulário.
 
-### Code Splitting
+>A página 'CityAnalytics', com endereço /city-analytics, foi desenvolvida como se fosse um comparador de climas entre duas cidades diferentes, retornando ao usuário a previsão do tempo de ambas, dos próximos quatro dias, com suas respectivas amplitudes térmicas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</p>
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [Desenvolvedor](#Desenvolvedor)
+<h4>Eike Hirsch ✒️ LinkedIn: https://www.linkedin.com/in/eike-hirsch/</h4>
