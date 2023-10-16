@@ -117,7 +117,6 @@ const DashboardLeftColumn = ({
   return (
     <StyledDashboardLeftColumn>
       <div className="flexCenter left-column">
-        <img className="left-column-image" src="./img/utech-logo.png" alt="" />
         <h1 className="dashboard-title">Bem-vindo ao Dashboard uClimate!</h1>
         <span className="dashboard-description">
           Escolha um estado e depois uma cidade para analisar suas condições

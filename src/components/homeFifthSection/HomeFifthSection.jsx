@@ -9,7 +9,7 @@ const HomeFifthSection = () => {
           <h1 className="title">Entre em contato</h1>
           <p className="description">
             Você pode nos contatar enviando e-mail abaixo ou através de nossos
-            canais do nosso <b>OmniChannel</b> caso já seja usuário.
+            canais de comunicação.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const HomeFifthSection = () => {
               <div className="flexColStart adress-subcontainer">
                 <span className="adress-subcontainer-title">Endereço:</span>
                 <span className="adress-subcontainer-description">
-                  Rua Idalina Pereira dos Santos, 67- 7º andar | Agronômica
+                  Rua Peres da Silva, 2º andar | Pantanal
                   Florianópolis/SC | CEP 88025-260
                 </span>
               </div>
@@ -55,7 +55,7 @@ const HomeFifthSection = () => {
               <div className="flexColStart adress-subcontainer">
                 <span className="adress-subcontainer-title">E-mail:</span>
                 <span className="adress-subcontainer-description">
-                  utech@utech.com.br
+                  uclimate@uclimate.com.br
                 </span>
               </div>
 

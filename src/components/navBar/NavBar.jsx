@@ -15,9 +15,6 @@ const NavBar = () => {
     <StyledNavBar>
       <nav id="intro-nav-container" className="flexStart intro-nav-container">
         <div id="intro-nav" className="flexStart intro-nav-box">
-          <a href="https://utech.com.br/site/" target="_blank">
-            <img src="./img/utech-logo.png" alt="" />
-          </a>
           {/* <OutsideClickHandler onOutsideClick={() => setMenuOpened(false)}> */}
           <div
             className="flexCenter intro-nav"

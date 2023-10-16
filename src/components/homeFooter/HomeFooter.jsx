@@ -12,10 +12,18 @@ const HomeFooter = () => {
         <div className="flexColCenter section-container">
           <h2 className="title">Baixe agora o uClimate App</h2>
           <div className="flexCenter images-container">
-            <a target="_blank" className="flexCenter" href="https://play.google.com/store/games?hl=pt_BR&gl=US&pli=1">
+            <a
+              target="_blank"
+              className="flexCenter"
+              href="https://play.google.com/store/games?hl=pt_BR&gl=US&pli=1"
+            >
               <img className="image" src="./img/playstore.png" alt="" />
             </a>
-            <a target="_blank" className="flexCenter" href="https://www.apple.com/br/app-store/">
+            <a
+              target="_blank"
+              className="flexCenter"
+              href="https://www.apple.com/br/app-store/"
+            >
               <img className="image" src="./img/appstore.png" alt="" />
             </a>
           </div>
@@ -30,38 +38,16 @@ const HomeFooter = () => {
                 />
               </div>
               <div className="flexColCenter">
-                <img
-                  className="image-utech"
-                  src="./img/utech-footer.png"
-                  alt=""
-                />
                 <h4 className="footer-container-subtitle">
-                  uTech Tecnologia - Soluções em Segurança e Telefonia
+                  uClimate Tecnologia - Soluções em climas
                 </h4>
               </div>
               <div className="flexColCenter social-media-container">
                 <div className="flexCenter social-media-subcontainer">
-                  <a
-                    href="https://www.facebook.com/uTechTecnologia"
-                    target="_blank"
-                  >
-                    <AiFillFacebook />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/company/utechtecnologia"
-                    target="_blank"
-                  >
-                    <AiFillLinkedin />
-                  </a>
-                  <a href="https://www.youtube.com/utechnet" target="_blank">
-                    <AiFillYoutube />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/utechoficial/"
-                    target="_blank"
-                  >
-                    <AiOutlineInstagram />
-                  </a>
+                  <AiFillFacebook />
+                  <AiFillLinkedin />
+                  <AiFillYoutube />
+                  <AiOutlineInstagram />
                 </div>
                 <h4 className="footer-container-subtitle">
                   Acompanhe-nos em nossas redes

@@ -70,9 +70,6 @@ const WeatherForecasting = () => {
     <StyledWeatherForecasting>
       <div className="flexColCenter  innerWidth">
         <div className="flexCenter nav-container">
-          <a href="https://utech.com.br/site/" target="_blank">
-            <img src="./img/utech-logo.png" alt="" />
-          </a>
           <SecondaryNavBar />
         </div>
         <div className="flexColCenter forecasting-container">

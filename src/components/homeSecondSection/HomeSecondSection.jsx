@@ -23,7 +23,7 @@ const HomeSecondSection = () => {
               </div>
               <h1 className="item-box-title">Suporte</h1>
               <p className="item-box-description">
-                A <b>uTech</b> oferece suporte 24h por dia com chat nativo para
+                Oferecemos suporte 24h por dia com chat nativo para
                 solução de dúvidas e problemas instantâneamente.
               </p>
             </div>
@@ -45,8 +45,8 @@ const HomeSecondSection = () => {
               </div>
               <h1 className="item-box-title">Intregação</h1>
               <p className="item-box-description">
-                O aplicativo é integrado com os demais <b>produtos uTech</b>,
-                como o Easy Key e MGE, ampliando sua aplicabilidade.
+                O aplicativo é integrado com os demais <b>produtos da empresa</b>,
+                como o Easy Coin e DPF, ampliando sua aplicabilidade.
               </p>
             </div>
           </div>

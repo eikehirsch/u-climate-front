@@ -13,7 +13,7 @@ const StyledDashboard = styled.div`
   overflow: hidden;
 
   .nav-container {
-    justify-content: flex-start;
+    justify-content: center;
     gap: 16rem;
     width: 100%;
   }
@@ -47,7 +47,7 @@ const StyledDashboard = styled.div`
     }
 
     .nav-container {
-      justify-content: space-between;
+      justify-content: flex-end;
       gap: 0;
       padding: 0 1rem;
     }
