@@ -115,7 +115,7 @@ const StyledWeatherForecasting = styled.div`
   .forecasting-averageTemp {
     margin-top: 1rem;
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
     color: #023e8a;
   }
 
