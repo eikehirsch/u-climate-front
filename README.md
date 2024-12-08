@@ -28,14 +28,6 @@ Para executar propriamente a aplicação, é necessário iniciar o back-end com 
  `React-swiper: biblioteca para criar e renderizar componentes do tipo carrossel.`
 
  `React-modal: biblioteca para criar e configurar telas do tipo modal, como o alerta de utilização de cookies.`
-
- `React-spinners: biblioteca para criar e configurar ícones de loading para sinalizar carregamentos.`
-
- `React-toastify: biblioteca utilizada para criar toasters, ou seja, pequenos cards que mostram se a execução de uma ação conectada ao banco foi performada com sucesso ou não.`
-
- `React-loader-spinner: biblioteca utilizada para renderizar condicionalmente um spinner enquanto funções assíncronas ainda não foram concluídas.`
-
- `react-input-mask: Biblioteca utilizada para criar máscaras de valores para CPF e telefone nos inputs de criação de usuários.`
  
 * [Introdução](#Introducao)
 
